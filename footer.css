@@ -1,10 +1,19 @@
+footer{
+  width: 1850px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35rem;
+}
+
 #page-footer{
-  width: 100%;
+  width: 1850px;
   height: 470px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20rem;
   background: #000;
   position: absolute;
 }
