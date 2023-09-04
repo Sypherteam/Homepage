@@ -1,5 +1,5 @@
-footer{
-  width: 1850px;
+footer {
+  width: 100vw;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -8,8 +8,8 @@ footer{
   margin-top: 35rem;
 }
 
-#page-footer{
-  width: 1850px;
+#page-footer {
+  width: 100vw;
   height: 470px;
   display: flex;
   justify-content: center;
@@ -18,20 +18,20 @@ footer{
   position: absolute;
 }
 
-.footer-container{
-  width: 1750px;
+.footer-container {
+  width: 100vw;
   height: 530px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #270D41;
+  background-color: #270d41;
   background-image: url(images/footer-design.png);
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: -2px 24px 30px 0px rgba(39, 13, 65, 0.37);
   margin-bottom: 9rem;
 }
 
-.footer{
+.footer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,27 +43,27 @@ footer{
   backdrop-filter: blur(5px);
 }
 
-.footer a{
+.footer a {
   color: #fff;
 }
 
-.footer a:hover{
-  color: #F7B948;
+.footer a:hover {
+  color: #f7b948;
 }
 
-.top-row{
+.top-row {
   display: flex;
   gap: 34rem;
 }
 
-.footer-logo{
+.footer-logo {
   width: 78px;
   height: 78px;
   margin-right: 1rem;
   margin-top: 1rem;
 }
 
-.footer-button{
+.footer-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,17 +74,17 @@ footer{
   margin-right: 0.6rem;
 }
 
-.btn5{
+.btn5 {
   width: 189px;
   height: 56px;
-  background-color: #9949FF;
+  background-color: #9949ff;
   border-radius: 10px;
   font-size: 20px;
   color: #fff;
   border: none;
 }
 
-.middle-row{
+.middle-row {
   display: flex;
   gap: 7.1rem;
   width: 979px;
@@ -92,23 +92,23 @@ footer{
   margin-top: -1rem;
 }
 
-.column1{
+.column1 {
 }
 
-.newsletter{
+.newsletter {
   font-size: 22px;
   line-height: 29px;
   margin: 0;
 }
 
-.newsletter-form{
+.newsletter-form {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 10px;
 }
 
-input{
+input {
   width: 278px;
   height: 47px;
   background: transparent;
@@ -116,53 +116,52 @@ input{
   border-bottom: 1px solid #979797;
 }
 
-input::placeholder{
+input::placeholder {
   color: #979797;
   font-size: 15px;
 }
 
-.submit-button{
-  background-color: #F7B948;
+.submit-button {
+  background-color: #f7b948;
   width: 50px;
   height: 50px;
   font-size: 20px;
   border-radius: 0 8px 8px 0;
   border: none;
- 
 }
 
-.column2{
+.column2 {
   display: flex;
   flex-direction: column;
   font-size: 15px;
   line-height: 2rem;
 }
 
-.column3{
+.column3 {
   display: flex;
   flex-direction: column;
   font-size: 15px;
   line-height: 2rem;
 }
 
-.column4{
+.column4 {
   display: flex;
   flex-direction: column;
   font-size: 15px;
   line-height: 2rem;
 }
 
-.bottom-row{
+.bottom-row {
   display: flex;
   gap: 38rem;
 }
 
-.bottom-links a{
+.bottom-links a {
   margin-right: 2rem;
   font-size: 15px;
 }
 
-.social-icons i{
+.social-icons i {
   margin-left: 2rem;
   font-size: 25px;
 }
